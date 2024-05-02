@@ -12,6 +12,9 @@ def safely_get_value(dct: typing.Mapping,
                      default: typing.Union[T,
                                            None] = None) -> typing.Union[typing.Any,
                                                                          T]:
+    """
+    documentation
+    """
     if key in dct:
         return dct[key]
     else:

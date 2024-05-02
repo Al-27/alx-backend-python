@@ -5,4 +5,7 @@ documentation
 
 
 def floor(n: float) -> int:
+    """
+    documentation
+    """
     return int(n)

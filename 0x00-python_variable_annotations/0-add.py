@@ -5,4 +5,7 @@ documentation
 
 
 def add(a: float, b: float) -> float:
+    """
+    documentation
+    """
     return a + b
