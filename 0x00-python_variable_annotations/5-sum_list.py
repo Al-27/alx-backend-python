@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
+"""
+documentation
+"""
 import typing
+
 
 def sum_list(input_list: typing.List[float]) -> float:
     sum = 0
