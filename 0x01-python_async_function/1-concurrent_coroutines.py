@@ -10,11 +10,12 @@ wait_n should return the list of all the delays (float values). The list of the 
 should be in ascending order without using sort() because of concurrency.
 """
 import asyncio
+import typing
 from random import uniform
 wait_random = __import__("0-basic_async_syntax").wait_random
 
 
-async def wait_n(n, max_delay):
+async def wait_n(n: int, max_delay: float) -> typing.List[float]:
     list_delays = []
     for i in range(n):
         rand = uniform(i * (max_delay / n), (max_delay / n) * (i + 1))
