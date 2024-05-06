@@ -6,7 +6,7 @@ import typing
 
 
 def safe_first_element(lst: typing.Sequence[typing.Any]) \
-    -> typing.Union[typing.Any, None]:
+-> typing.Union[typing.Any, None]:
     """
     documentation
     """
