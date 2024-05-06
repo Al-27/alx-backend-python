@@ -15,7 +15,7 @@ from random import uniform
 wait_random = __import__("0-basic_async_syntax").wait_random
 
 
-async def wait_n(n: int, max_delay: float) -> typing.List[float]:
+async def wait_n(n: int, max_delay: int) -> typing.List[float]:
     list_delays = []
     for i in range(n):
         rand = uniform(i * (max_delay / n), (max_delay / n) * (i + 1))
