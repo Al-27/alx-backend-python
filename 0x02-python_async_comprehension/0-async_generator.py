@@ -7,7 +7,7 @@ import typing
 from random import uniform
 
 
-async def wait_random():
+async def async_generator():
     """
     func
     """
